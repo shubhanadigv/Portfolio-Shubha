@@ -78,6 +78,13 @@ export default function App() {
 
   const projects = [
     {
+      title: "Education ERP Solutions",
+      category: "enterprise",
+      desc: "Solution for complete College administration, finance section & exam section & Academic activities of student attendances, section allocations.",
+      tech: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS","jQuery","Ajax"],
+      metric: "Team Lead"
+    },
+    {
       title: "Trading Application",
       category: "trade",
       desc: "Trading application through which trader can buy and sell stock automatically. Fetch live stock data, built automated trading logic for pre-defined strategies. ",
@@ -97,13 +104,6 @@ export default function App() {
       desc: "Integrated the OpenAI Chat API, HeyGen AI Video generator to generate a video.",
       tech: ["Python", "Flask", "OpenAI API", "HeyGen AI API"],
       metric: "Project"
-    },
-    {
-      title: "Education ERP Solutions",
-      category: "enterprise",
-      desc: "Solution for complete College administration, finance section & exam section & Academic activities of student attendances, section allocations.",
-      tech: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS","jQuery","Ajax"],
-      metric: "Team Lead"
     },
     {
       title: "Logistic Solutions",
