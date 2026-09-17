@@ -43,7 +43,7 @@ export default function App() {
     email: "nadigshubhav@gmail.com",
     whatsapp: "https://wa.me/918217493872",
     linkedin: "https://www.linkedin.com/in/shubha-v-n-871405226",
-    resumeLink: "/Nadig-Shubha.pdf",
+    resumeLink: "/Shubha-V-Nadig.pdf",
     summary: "Experienced Full stack developer with 4+ years of experience in designing, and developing web application. Proficient in Laravel framework and PHP to build secure and high-performance applications. Expertise in REST API development and third party API integrations."
   };
 
@@ -88,7 +88,7 @@ export default function App() {
       title: "HRMS",
       category: "enterprise",
       desc: "Engineered real-time sync for hardware biometric terminals handling concurrent attendance records for 1,000+ active personnel.",
-      tech: ["HTML","CSS","JavaScript","Laravel", "MsSQL"],
+      tech: ["HTML","CSS","JavaScript","PHP","Laravel", "MsSQL","jQuery","Ajax"],
       metric: "Project"
     },
     {
@@ -102,7 +102,7 @@ export default function App() {
       title: "Education ERP Solutions",
       category: "enterprise",
       desc: "Solution for complete College administration, finance section & exam section & Academic activities of student attendances, section allocations.",
-      tech: ["Laravel", "MySQL", "JavaScript", "HTML/CSS"],
+      tech: ["PHP", "Laravel", "MySQL", "JavaScript", "HTML/CSS","jQuery","Ajax"],
       metric: "Team Lead"
     },
     {
@@ -111,6 +111,13 @@ export default function App() {
       desc: "Application for booking to transport goods from source to destination.",
       tech: ["HTML", "CSS", "Django","JavaScript", "Node.js", "MsSQL"],
       metric: "Worked on Existing Project"
+    },
+    {
+      title: "Inventory Management System ",
+      category: "enterprise",
+      desc: "Inventory Management System for efficient inventory tracking, stock management, and order processing.",
+      tech: ["PHP", "Laravel", "MSSQL", "JavaScript", "HTML/CSS","jQuery","Ajax"],
+      metric: "Team Lead"
     },
     {
       title: "Warehouse Management System ",
@@ -125,7 +132,6 @@ export default function App() {
     {
       role: "Full Stack Developer & Team Lead",
       company: "Step In Technologies",
-      period: "Nov 2021 – July-2026",
       location: "Shivamogga, Karnataka",
       highlights: [
         "Responsible for designing and development of new requirement features, by implementing the new modern technologies.",
@@ -315,7 +321,7 @@ export default function App() {
           </div>
 
           <div className="flex gap-2 bg-slate-900 p-1.5 rounded-lg border border-slate-800 text-xs font-semibold">
-            {['all', 'enterprise', 'ai', 'fintech'].map((tab) => (
+            {['all', 'enterprise', 'ai'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -437,9 +443,9 @@ export default function App() {
           </div>
 
           <div className="flex flex-wrap items-center gap-4 text-xs font-semibold">
-            <a href={profile.whatsapp} target="_blank" rel="noreferrer" className="px-4 py-2.5 rounded-lg bg-emerald-600/20 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-600 hover:text-white transition-all flex items-center gap-2">
+            {/* <a href={profile.whatsapp} target="_blank" rel="noreferrer" className="px-4 py-2.5 rounded-lg bg-emerald-600/20 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-600 hover:text-white transition-all flex items-center gap-2">
               <WhatsAppIcon /> Let's Chat
-            </a>
+            </a> */}
             <a href={profile.linkedin} target="_blank" rel="noreferrer" className="px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 text-slate-300 hover:text-white transition-all flex items-center gap-2">
               <LinkedInIcon /> LinkedIn
             </a>
