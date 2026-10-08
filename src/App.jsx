@@ -43,7 +43,7 @@ export default function App() {
     email: "nadigshubhav@gmail.com",
     whatsapp: "https://wa.me/918217493872",
     linkedin: "https://www.linkedin.com/in/shubha-v-n-871405226",
-    resumeLink: "/Shubha-V-Nadig.pdf",
+    resumeLink: "/Nadig-Shubha-V.pdf",
     summary: "Experienced Full stack developer with 4+ years of experience in designing, and developing web application. Proficient in Laravel framework and PHP to build secure and high-performance applications. Expertise in REST API development and third party API integrations."
   };
 
